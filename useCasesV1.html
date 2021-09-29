@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset="utf-8"> <!--define character set-->
+    <meta name="description" content="This is where I will display my quadcopter and all the things it can do.">
+    <title>Desert Sparrow</title>
+</head>
+<body>
+    <!--This is a comment-->
+    <h1><i>Welcome to my quadcopters website!</i></h1>
+    <p>The Desert Sparrow is a custom quadcopter.</p>
+    <hr />
+    <br />
+    <h3>Use Cases</h3>
+    <!--Use case 1 hover-->
+    <h4>Use Case 1:<b> Hover</b></h4>
+    <p><b>Goal:</b> To be able to hover. Maintain altatude and hold position in space.</p>
+    <p><b>Why?:</b> If I can make the quad hover it will be able to keep itself orientated correctly while flying.</p>
+    <p><b>Steps:</b></p>
+    <p>1: Calibrate MPU6050</p>
+    <p>2: Start collecting sensor data</p>
+    <p>3: Turn on motors and increase speed to lift off</p>
+    <p>4: Use acceleromiter data to maintain orientation</p>
+    <p>5: At 2 meters off the ground slow motors to maintain altitude</p>
+    <p>6: Repeat step 4 to maintain hover.</p>
+    <p>7: Decrease motor speed slightly to decend and land</p>
+    <!--Use case 2 bank-->
+    <h4>Use Case 2:<b> Bank(Roll and Pitch)</b></h4>
+    <p><b>Goal:</b> Have the quad-copter able to tilt itself left, right, forward, and back. </p>
+    <p><b>Why?:</b> Give the quad-copter the ability to move through space.</p>
+    <p><b>Steps:</b></p>
+    <p>1: Must already be in the air.(See Hover)</p>
+    <p>2: Decrease the speed of two motors in the direction you want to go.</p>
+    <p>2A: Increase the speed of the other two motors.</p>
+    <p>3: Use acceleromiter/gryoscope data to determine pitch or roll angle</p>
+    <p>3: After reaching the desired angle return motors to hover speed</p>
+    <p>4: (optional) increase motor speed to increase travel speed.</p>
+    <p>5: Once you have reached your desired location level quad copter again.</p>
+    <p>5A: Increase speed of motors that were slowed before and slow the speed of motors that were sped up before</p>
+    <p>6: Use acceleromiter/gryoscope data to determine pitch or roll angle</p>
+    <p>7: Return motors to hover speed and maintain hover</p>
+    <!--Use case 3 spin-->
+    <h4>Use Case 3:<b> Spin(Yaw)</b></h4>
+    <p><b>Goal:</b> While hoving in place the quad should be able to spin clockwise or counterclockwise.</p>
+    <p><b>Why?:</b> So that the front of the quad can be pointed in the direction you want to go or looking at something you want to interact with.</p>
+    <p><b>Steps:</b></p>
+    <p>1: Must already be in the air.(See Hover)</p>
+    <p>2: Decrease speed of two diagonal motors while increaseing speed of other two diagonal motors</p>
+    <p>2A: This will keep your quad hovering level but will cause it to spin in the direction of the increased motors.</p>
+    <p>3: Once you've reached your new heading return motors to hover speed.</p>
+    <!--Use case 4 collect saguaro cactus fruit-->
+    <h4>Use Case 4:<b> Collect saguaro cactus fruit</b></h4>
+    <p><b>Goal:</b> Fly to the top of a saguaro cactus and pick the fruit so I can eat it.</p>
+    <p><b>Why?:</b> For the past three years of living here those fruits have tantalized me every time I go for a hike. Now I have the technology to aquire them.</p>
+    <p><b>Steps:</b></p>
+    <p>1: Begin flight and hover(see hover)</p>
+    <p>2: Navagate to cactus (see bank and spin)</p>
+    <p>3: Hover near cactus, then increase all four motors to reach the top.</p>
+    <p>4: Return to hover in position at the top of the cactus.</p>
+    <p>5: Pick the fruit. I am thinking the easiest method would just to have a spike that could be propelled forward and stab a fruit.</p>
+    <p>6: Increase motor speed to lift the fruit free.</p>
+    <p>7: Navigate back to pilot. (see bank and spin).</p>
+    <p>8: Slowly decrease motor speed to land and deliver the prize!</p>
+
+</body>
+</html>
